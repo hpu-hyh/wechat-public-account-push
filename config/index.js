@@ -177,7 +177,7 @@ const USER_CONFIG = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'FY3xm_FVjzMK5Bq0lx31stq-GspauYnr1gMfKtyMwrg',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -221,24 +221,24 @@ const USER_CONFIG = {
    * 删除isShowAge属性，也会不展示岁数
    * --- 是否展示周岁信息结束 ---
    */
-  FESTIVALS: [
-    // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {
-      type: '*生日', name: '老婆', year: '1996', date: '09-09', isShowAge: true,
-    },
-    {
-      type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
-    },
-    // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {
-      type: '生日', name: '李四', year: '1996', date: '09-31', isShowAge: true,
-    },
-    {
-      type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
-    }
-    // 你可以不断按格式往下增加
-    // ...
-  ],
+//   FESTIVALS: [
+//     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+//     {
+//       type: '*生日', name: '老婆', year: '1996', date: '09-09', isShowAge: true,
+//     },
+//     {
+//       type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
+//     },
+//     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+//     {
+//       type: '生日', name: '李四', year: '1996', date: '09-31', isShowAge: true,
+//     },
+//     {
+//       type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
+//     }
+//     // 你可以不断按格式往下增加
+//     // ...
+//   ],
 
   /**
    * 限制重要节日的展示条目, 需要填写数字;
@@ -253,16 +253,16 @@ const USER_CONFIG = {
    * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
    * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }}
    * */
-  CUSTOMIZED_DATE_LIST: [
-    // 在一起的日子
-    { keyword: 'love_day', date: '2022-09-08' },
-    // 结婚纪念日
-    { keyword: 'marry_day', date: '2022-09-09' },
-    // 退伍日
-    { keyword: 'ex_day', date: '2022-09-10' }
-    // 你可以不断按格式往下增加
-    // ...
-  ],
+//   CUSTOMIZED_DATE_LIST: [
+//     // 在一起的日子
+//     { keyword: 'love_day', date: '2022-09-08' },
+//     // 结婚纪念日
+//     { keyword: 'marry_day', date: '2022-09-09' },
+//     // 退伍日
+//     { keyword: 'ex_day', date: '2022-09-10' }
+//     // 你可以不断按格式往下增加
+//     // ...
+//   ],
 
   /** 插槽 */
 
